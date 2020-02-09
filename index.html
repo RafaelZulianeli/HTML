@@ -24,12 +24,29 @@
     </figure>
 
     <form>
-      <p>
-        <label>cor de Fundo <input type="color" name="bg"/></label>
-      </p>
-      <p>
-        <label>cor da Frente <input type="color" name="fg"/></label>
-      </p>
+      <fieldset>
+        <legend>Informação</legend>
+        <p>
+          <label
+            >E-mail
+            <input type="email" name="email" placeholder="user@domain.com"
+          /></label>
+        </p>
+        <p>
+          <label
+            >Web site
+            <input
+              type="url"
+              name="website"
+              placeholder="http://www.domain.com/"
+          /></label>
+        </p>
+        <p>
+          <label
+            >Telefone <input type="tel" name="fone" placeholder="123-123-1234"
+          /></label>
+        </p>
+      </fieldset>
       <p><button type="submit">Submeter</button></p>
     </form>
   </body>
